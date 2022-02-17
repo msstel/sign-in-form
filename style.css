@@ -1,0 +1,68 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(button.jpeg) 50% 50% no-repeat;
+    background-size: cover;
+    display: table;
+}
+
+.signin {
+    border: 5px solid rgba(228, 146, 146, 0.3);
+    border-radius: 5px;
+    padding: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+    margin-top: 0px;
+    font-family: andalemono;
+    text-transform: lowercase;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 320px;
+    height: 50px;
+    background: rgba(202, 143, 143, 0.3);
+    outline: none;
+    border: 1px solid rgba(202,143,0143,0.3);
+    font-family: andalemono;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(230, 78, 78);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+button {
+    
+    width: 327px;
+    height: 50px;
+    font-size: 16px;
+    background: rgb(236, 104, 104);
+    font-weight: lighter;
+    font-family: andalemono;
+    color: #fff;
+    border: 0px;
+    margin-left: 10px;
+    border-radius: 5px; 
+}
+
+
